@@ -56,3 +56,11 @@ if uploaded_image is not None:
 
         os.remove("processed_image.png")  # Elimina el archivo temporal de la imagen procesada del sistema operativo
 
+
+
+# Pie de página con enlace a LinkedIn
+st.markdown("""
+---
+#### Desarrollado por [Luis Ponce de León](https://www.linkedin.com/in/jponcedeleon/)
+Sígueme en [LinkedIn](https://www.linkedin.com/in/jponcedeleon/) para más proyectos como este.
+""", unsafe_allow_html=True)
